@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "result">accept and content type are JSON (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">unauthenticated user searches repositories by a valid &lt;&quot;author name&quot;&gt; (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user should get 200 as a status code (FAILED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user should only see repositories by this &lt;&quot;author name&quot;&gt; as a result (SKIPPED)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1905" started-at="2018-11-05T02:59:02Z" finished-at="2018-11-05T02:59:04Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:api.RunnerClass@6e06451e]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="1905" started-at="2018-11-05T02:59:02Z" finished-at="2018-11-05T02:59:04Z">
+      <class name="api.RunnerClass">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:api.RunnerClass@6e06451e]" name="setUpClass" is-config="true" duration-ms="156" started-at="2018-11-05T02:59:02Z" finished-at="2018-11-05T02:59:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:api.RunnerClass@6e06451e]" name="runScenario" duration-ms="1684" started-at="2018-11-05T02:59:03Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-11-05T02:59:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the search by author name functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["GitHub Search"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<200> but was:<422>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<200> but was:<422>
+at org.junit.Assert.fail(Assert.java:88)
+at org.junit.Assert.failNotEquals(Assert.java:834)
+at org.junit.Assert.assertEquals(Assert.java:645)
+at org.junit.Assert.assertEquals(Assert.java:631)
+at implementedSteps.Test1.user_should_get_as_a_status_code(Test1.java:35)
+at ✽.user should get 200 as a status code(./src/test/java/features/gitHubSearch.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">accept and content type are JSON (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">unauthenticated user searches repositories by a valid &lt;&quot;author name&quot;&gt; (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user should get 200 as a status code (FAILED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user should only see repositories by this &lt;&quot;author name&quot;&gt; as a result (SKIPPED)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:api.RunnerClass@6e06451e]" name="tearDownClass" is-config="true" duration-ms="8" started-at="2018-11-05T02:59:04Z" finished-at="2018-11-05T02:59:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- api.RunnerClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
