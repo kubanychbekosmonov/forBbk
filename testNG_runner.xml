@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GitHub Search Test Automation" parallel = "true" thread-count = "2" verbose = "3">
+	<test name="Smoke Test">
+		<classes>
+			<class name="src.test.java.api.RunnerClass.java"></class>
+		</classes>
+	</test>
+</suite>

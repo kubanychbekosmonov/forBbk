@@ -1,32 +1,206 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="6" ignored="0" total="11" passed="5">
   <reporter-output>
     <line>
       <![CDATA[<div "result">accept and content type are JSON (PASSED : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">unauthenticated user searches repositories by a valid &lt;&quot;author name&quot;&gt; (PASSED : 1s)</div>]]>
+      <![CDATA[<div "result">unauthenticated user searches repositories by a valid oracle (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">the user hits the endpoint (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user should get 200 as a status code (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user should only see repositories by this oracle as a result (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">accept and content type are JSON (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">unauthenticated user searches repositories by a valid cucumber (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">the user hits the endpoint (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user should get 200 as a status code (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user should only see repositories by this cucumber as a result (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">accept and content type are JSON (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">unauthenticated user searches repositories by a valid google (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">the user hits the endpoint (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user should get 200 as a status code (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user should only see repositories by this google as a result (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">accept and content type are JSON (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">an unauthenticated user wants repositories with stars ranging from 15000 to 100000 (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">the user hits the endpoint (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user should get 200 as a status code (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">repositories with stars in a range of 15000 to 100000 should be displayed (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">accept and content type are JSON (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">the user filters results by most stars (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">unauthenticated user searches repositories by a valid apache (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">the user hits the endpoint (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user should get 200 as a status code (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user should only see repositories by this apache as a result (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">repositories with most stars should come first (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">accept and content type are JSON (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">the user filters results by certain javascript (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">the user hits the endpoint (PASSED : 0s)</div>]]>
     </line>
     <line>
       <![CDATA[<div "result">user should get 200 as a status code (FAILED : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">user should only see repositories by this &lt;&quot;author name&quot;&gt; as a result (SKIPPED)</div>]]>
+      <![CDATA[<div "result">only repositories with this javascript should appear (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">accept and content type are JSON (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">the user filters results by certain Java (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">the user hits the endpoint (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user should get 200 as a status code (FAILED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">only repositories with this Java should appear (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">accept and content type are JSON (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">the user filters results by certain HTML (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">the user hits the endpoint (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user should get 200 as a status code (FAILED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">only repositories with this HTML should appear (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">accept and content type are JSON (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">the user filters results by least forks (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">unauthenticated user searches repositories by a valid tesla (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">the user hits the endpoint (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user should get 200 as a status code (FAILED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user should only see repositories by this tesla as a result (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">repositories with least forks should come first (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">accept and content type are JSON (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">the user paginates results  count by 50 items per page (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">unauthenticated user searches repositories by a valid facebook (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">the user hits the endpoint (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user should get 200 as a status code (FAILED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user should only see repositories by this facebook as a result (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">one page should contain at most 50 items by default (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">accept and content type are JSON (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">unauthenticated user searches repositories by a valid cucumber (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">the user hits the endpoint (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user should get 200 as a status code (FAILED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user should only see repositories by this cucumber as a result (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">one page should contain at most 30 items (UNDEFINED)</div>]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1905" started-at="2018-11-05T02:59:02Z" finished-at="2018-11-05T02:59:04Z">
+  <suite name="Default suite" duration-ms="11611" started-at="2018-11-12T01:09:47Z" finished-at="2018-11-12T01:09:58Z">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:api.RunnerClass@6e06451e]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:api.RunnerClass@52525845]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="1905" started-at="2018-11-05T02:59:02Z" finished-at="2018-11-05T02:59:04Z">
+    <test name="Default test" duration-ms="11611" started-at="2018-11-12T01:09:47Z" finished-at="2018-11-12T01:09:58Z">
       <class name="api.RunnerClass">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:api.RunnerClass@6e06451e]" name="setUpClass" is-config="true" duration-ms="156" started-at="2018-11-05T02:59:02Z" finished-at="2018-11-05T02:59:02Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:api.RunnerClass@52525845]" name="setUpClass" is-config="true" duration-ms="132" started-at="2018-11-12T01:09:47Z" finished-at="2018-11-12T01:09:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:api.RunnerClass@6e06451e]" name="runScenario" duration-ms="1684" started-at="2018-11-05T02:59:03Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-11-05T02:59:04Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:api.RunnerClass@52525845]" name="runScenario" duration-ms="3144" started-at="2018-11-12T01:09:47Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-11-12T01:09:50Z">
           <params>
             <param index="0">
               <value>
@@ -39,18 +213,179 @@
               </value>
             </param>
           </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">accept and content type are JSON (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">unauthenticated user searches repositories by a valid oracle (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">the user hits the endpoint (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user should get 200 as a status code (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user should only see repositories by this oracle as a result (PASSED : 1s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:api.RunnerClass@52525845]" name="runScenario" duration-ms="1413" started-at="2018-11-12T01:09:50Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-11-12T01:09:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the search by author name functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["GitHub Search"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">accept and content type are JSON (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">unauthenticated user searches repositories by a valid cucumber (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">the user hits the endpoint (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user should get 200 as a status code (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user should only see repositories by this cucumber as a result (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:api.RunnerClass@52525845]" name="runScenario" duration-ms="1455" started-at="2018-11-12T01:09:52Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-11-12T01:09:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the search by author name functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["GitHub Search"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">accept and content type are JSON (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">unauthenticated user searches repositories by a valid google (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">the user hits the endpoint (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user should get 200 as a status code (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user should only see repositories by this google as a result (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:api.RunnerClass@52525845]" name="runScenario" duration-ms="1645" started-at="2018-11-12T01:09:53Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-11-12T01:09:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the search by author name and sort by stars range functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["GitHub Search"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">accept and content type are JSON (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">an unauthenticated user wants repositories with stars ranging from 15000 to 100000 (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">the user hits the endpoint (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user should get 200 as a status code (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">repositories with stars in a range of 15000 to 100000 should be displayed (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:api.RunnerClass@52525845]" name="runScenario" duration-ms="1964" started-at="2018-11-12T01:09:55Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-11-12T01:09:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the search by author name and sort by stars functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["GitHub Search"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">accept and content type are JSON (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">the user filters results by most stars (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">unauthenticated user searches repositories by a valid apache (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">the user hits the endpoint (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user should get 200 as a status code (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user should only see repositories by this apache as a result (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">repositories with most stars should come first (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:api.RunnerClass@52525845]" name="runScenario" duration-ms="283" started-at="2018-11-12T01:09:57Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-11-12T01:09:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the search by author name and sort by languages"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["GitHub Search"]]>
+              </value>
+            </param>
+          </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected:<200> but was:<422>]]>
+              <![CDATA[expected:<200> but was:<403>]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected:<200> but was:<422>
+              <![CDATA[java.lang.AssertionError: expected:<200> but was:<403>
 at org.junit.Assert.fail(Assert.java:88)
 at org.junit.Assert.failNotEquals(Assert.java:834)
 at org.junit.Assert.assertEquals(Assert.java:645)
 at org.junit.Assert.assertEquals(Assert.java:631)
-at implementedSteps.Test1.user_should_get_as_a_status_code(Test1.java:35)
-at ✽.user should get 200 as a status code(./src/test/java/features/gitHubSearch.feature:7)
+at implementedSteps.Test1.user_should_get_as_a_status_code(Test1.java:54)
+at ✽.user should get 200 as a status code(./src/test/java/features/gitHubSearch.feature:43)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
@@ -59,17 +394,265 @@ at ✽.user should get 200 as a status code(./src/test/java/features/gitHubSearc
               <![CDATA[<div "result">accept and content type are JSON (PASSED : 0s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">unauthenticated user searches repositories by a valid &lt;&quot;author name&quot;&gt; (PASSED : 1s)</div>]]>
+              <![CDATA[<div "result">the user filters results by certain javascript (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">the user hits the endpoint (PASSED : 0s)</div>]]>
             </line>
             <line>
               <![CDATA[<div "result">user should get 200 as a status code (FAILED : 0s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">user should only see repositories by this &lt;&quot;author name&quot;&gt; as a result (SKIPPED)</div>]]>
+              <![CDATA[<div "result">only repositories with this javascript should appear (SKIPPED)</div>]]>
             </line>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:api.RunnerClass@6e06451e]" name="tearDownClass" is-config="true" duration-ms="8" started-at="2018-11-05T02:59:04Z" finished-at="2018-11-05T02:59:04Z">
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:api.RunnerClass@52525845]" name="runScenario" duration-ms="328" started-at="2018-11-12T01:09:57Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-11-12T01:09:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the search by author name and sort by languages"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["GitHub Search"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<200> but was:<403>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<200> but was:<403>
+at org.junit.Assert.fail(Assert.java:88)
+at org.junit.Assert.failNotEquals(Assert.java:834)
+at org.junit.Assert.assertEquals(Assert.java:645)
+at org.junit.Assert.assertEquals(Assert.java:631)
+at implementedSteps.Test1.user_should_get_as_a_status_code(Test1.java:54)
+at ✽.user should get 200 as a status code(./src/test/java/features/gitHubSearch.feature:43)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">accept and content type are JSON (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">the user filters results by certain Java (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">the user hits the endpoint (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user should get 200 as a status code (FAILED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">only repositories with this Java should appear (SKIPPED)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:api.RunnerClass@52525845]" name="runScenario" duration-ms="284" started-at="2018-11-12T01:09:57Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-11-12T01:09:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the search by author name and sort by languages"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["GitHub Search"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<200> but was:<403>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<200> but was:<403>
+at org.junit.Assert.fail(Assert.java:88)
+at org.junit.Assert.failNotEquals(Assert.java:834)
+at org.junit.Assert.assertEquals(Assert.java:645)
+at org.junit.Assert.assertEquals(Assert.java:631)
+at implementedSteps.Test1.user_should_get_as_a_status_code(Test1.java:54)
+at ✽.user should get 200 as a status code(./src/test/java/features/gitHubSearch.feature:43)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">accept and content type are JSON (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">the user filters results by certain HTML (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">the user hits the endpoint (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user should get 200 as a status code (FAILED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">only repositories with this HTML should appear (SKIPPED)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:api.RunnerClass@52525845]" name="runScenario" duration-ms="306" started-at="2018-11-12T01:09:58Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-11-12T01:09:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the search by author name and sort by forks functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["GitHub Search"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<200> but was:<403>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<200> but was:<403>
+at org.junit.Assert.fail(Assert.java:88)
+at org.junit.Assert.failNotEquals(Assert.java:834)
+at org.junit.Assert.assertEquals(Assert.java:645)
+at org.junit.Assert.assertEquals(Assert.java:631)
+at implementedSteps.Test1.user_should_get_as_a_status_code(Test1.java:54)
+at ✽.user should get 200 as a status code(./src/test/java/features/gitHubSearch.feature:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">accept and content type are JSON (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">the user filters results by least forks (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">unauthenticated user searches repositories by a valid tesla (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">the user hits the endpoint (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user should get 200 as a status code (FAILED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user should only see repositories by this tesla as a result (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">repositories with least forks should come first (SKIPPED)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:api.RunnerClass@52525845]" name="runScenario" duration-ms="295" started-at="2018-11-12T01:09:58Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-11-12T01:09:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate pagination number of results"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["GitHub Search"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<200> but was:<403>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<200> but was:<403>
+at org.junit.Assert.fail(Assert.java:88)
+at org.junit.Assert.failNotEquals(Assert.java:834)
+at org.junit.Assert.assertEquals(Assert.java:645)
+at org.junit.Assert.assertEquals(Assert.java:631)
+at implementedSteps.Test1.user_should_get_as_a_status_code(Test1.java:54)
+at ✽.user should get 200 as a status code(./src/test/java/features/gitHubSearch.feature:70)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">accept and content type are JSON (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">the user paginates results  count by 50 items per page (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">unauthenticated user searches repositories by a valid facebook (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">the user hits the endpoint (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user should get 200 as a status code (FAILED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user should only see repositories by this facebook as a result (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">one page should contain at most 50 items by default (SKIPPED)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:api.RunnerClass@52525845]" name="runScenario" duration-ms="291" started-at="2018-11-12T01:09:58Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-11-12T01:09:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate pagination default number of results"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["GitHub Search"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<200> but was:<403>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<200> but was:<403>
+at org.junit.Assert.fail(Assert.java:88)
+at org.junit.Assert.failNotEquals(Assert.java:834)
+at org.junit.Assert.assertEquals(Assert.java:645)
+at org.junit.Assert.assertEquals(Assert.java:631)
+at implementedSteps.Test1.user_should_get_as_a_status_code(Test1.java:54)
+at ✽.user should get 200 as a status code(./src/test/java/features/gitHubSearch.feature:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">accept and content type are JSON (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">unauthenticated user searches repositories by a valid cucumber (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">the user hits the endpoint (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user should get 200 as a status code (FAILED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user should only see repositories by this cucumber as a result (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">one page should contain at most 30 items (UNDEFINED)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:api.RunnerClass@52525845]" name="tearDownClass" is-config="true" duration-ms="12" started-at="2018-11-12T01:09:58Z" finished-at="2018-11-12T01:09:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>5/6/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Nov 04 20:59:02 CST 2018</td>
+<td>Started on:</td><td>Sun Nov 11 19:09:47 CST 2018</td>
 </tr>
-<tr><td>Total time:</td><td>1 seconds (1905 ms)</td>
+<tr><td>Total time:</td><td>11 seconds (11611 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,35 +75,286 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='api.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: api.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the search by author name functionality", "GitHub Search"<br/>
-<a href="#Output-864221358" onClick='toggleBox("Output-864221358", this, "Show output", "Hide output");'>Show output</a>
+<td title='api.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: api.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the search by author name and sort by languages", "GitHub Search"<br/>
+<a href="#Output-1883652579" onClick='toggleBox("Output-1883652579", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-864221358" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-864221358">
+<a href="#Output-1883652579" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1883652579">
 <div "result">accept and content type are JSON (PASSED : 0s)</div><br/>
-<div "result">unauthenticated user searches repositories by a valid &lt;&quot;author name&quot;&gt; (PASSED : 1s)</div><br/>
+<div "result">the user filters results by certain javascript (PASSED : 0s)</div><br/>
+<div "result">the user hits the endpoint (PASSED : 0s)</div><br/>
 <div "result">user should get 200 as a status code (FAILED : 0s)</div><br/>
-<div "result">user should only see repositories by this &lt;&quot;author name&quot;&gt; as a result (SKIPPED)</div><br/>
+<div "result">only repositories with this javascript should appear (SKIPPED)</div><br/>
 </div>
 </td>
-<td><div><pre>java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;422&gt;
+<td><div><pre>java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;403&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:645)
 	at org.junit.Assert.assertEquals(Assert.java:631)
-	at implementedSteps.Test1.user_should_get_as_a_status_code(Test1.java:35)
-	at ✽.user should get 200 as a status code(./src/test/java/features/gitHubSearch.feature:7)
-</pre></div><a href='#' onClick='toggleBox("stack-trace864221358", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace864221358'><pre>java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;422&gt;
+	at implementedSteps.Test1.user_should_get_as_a_status_code(Test1.java:54)
+	at ✽.user should get 200 as a status code(./src/test/java/features/gitHubSearch.feature:43)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1883652579", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1883652579'><pre>java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;403&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:645)
 	at org.junit.Assert.assertEquals(Assert.java:631)
-	at implementedSteps.Test1.user_should_get_as_a_status_code(Test1.java:35)
-	at ✽.user should get 200 as a status code(./src/test/java/features/gitHubSearch.feature:7)
+	at implementedSteps.Test1.user_should_get_as_a_status_code(Test1.java:54)
+	at ✽.user should get 200 as a status code(./src/test/java/features/gitHubSearch.feature:43)
 </pre></div></td>
+<td>0</td>
+<td>api.RunnerClass@52525845</td></tr>
+<tr>
+<td title='api.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: api.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the search by author name and sort by languages", "GitHub Search"<br/>
+<a href="#Output-140040372" onClick='toggleBox("Output-140040372", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-140040372" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-140040372">
+<div "result">accept and content type are JSON (PASSED : 0s)</div><br/>
+<div "result">the user filters results by certain Java (PASSED : 0s)</div><br/>
+<div "result">the user hits the endpoint (PASSED : 0s)</div><br/>
+<div "result">user should get 200 as a status code (FAILED : 0s)</div><br/>
+<div "result">only repositories with this Java should appear (SKIPPED)</div><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;403&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at implementedSteps.Test1.user_should_get_as_a_status_code(Test1.java:54)
+	at ✽.user should get 200 as a status code(./src/test/java/features/gitHubSearch.feature:43)
+</pre></div><a href='#' onClick='toggleBox("stack-trace140040372", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace140040372'><pre>java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;403&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at implementedSteps.Test1.user_should_get_as_a_status_code(Test1.java:54)
+	at ✽.user should get 200 as a status code(./src/test/java/features/gitHubSearch.feature:43)
+</pre></div></td>
+<td>0</td>
+<td>api.RunnerClass@52525845</td></tr>
+<tr>
+<td title='api.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: api.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the search by author name and sort by languages", "GitHub Search"<br/>
+<a href="#Output-863286716" onClick='toggleBox("Output-863286716", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-863286716" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-863286716">
+<div "result">accept and content type are JSON (PASSED : 0s)</div><br/>
+<div "result">the user filters results by certain HTML (PASSED : 0s)</div><br/>
+<div "result">the user hits the endpoint (PASSED : 0s)</div><br/>
+<div "result">user should get 200 as a status code (FAILED : 0s)</div><br/>
+<div "result">only repositories with this HTML should appear (SKIPPED)</div><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;403&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at implementedSteps.Test1.user_should_get_as_a_status_code(Test1.java:54)
+	at ✽.user should get 200 as a status code(./src/test/java/features/gitHubSearch.feature:43)
+</pre></div><a href='#' onClick='toggleBox("stack-trace863286716", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace863286716'><pre>java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;403&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at implementedSteps.Test1.user_should_get_as_a_status_code(Test1.java:54)
+	at ✽.user should get 200 as a status code(./src/test/java/features/gitHubSearch.feature:43)
+</pre></div></td>
+<td>0</td>
+<td>api.RunnerClass@52525845</td></tr>
+<tr>
+<td title='api.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: api.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the search by author name and sort by forks functionality", "GitHub Search"<br/>
+<a href="#Output-1040172900" onClick='toggleBox("Output-1040172900", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1040172900" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1040172900">
+<div "result">accept and content type are JSON (PASSED : 0s)</div><br/>
+<div "result">the user filters results by least forks (PASSED : 0s)</div><br/>
+<div "result">unauthenticated user searches repositories by a valid tesla (PASSED : 0s)</div><br/>
+<div "result">the user hits the endpoint (PASSED : 0s)</div><br/>
+<div "result">user should get 200 as a status code (FAILED : 0s)</div><br/>
+<div "result">user should only see repositories by this tesla as a result (SKIPPED)</div><br/>
+<div "result">repositories with least forks should come first (SKIPPED)</div><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;403&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at implementedSteps.Test1.user_should_get_as_a_status_code(Test1.java:54)
+	at ✽.user should get 200 as a status code(./src/test/java/features/gitHubSearch.feature:57)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1040172900", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1040172900'><pre>java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;403&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at implementedSteps.Test1.user_should_get_as_a_status_code(Test1.java:54)
+	at ✽.user should get 200 as a status code(./src/test/java/features/gitHubSearch.feature:57)
+</pre></div></td>
+<td>0</td>
+<td>api.RunnerClass@52525845</td></tr>
+<tr>
+<td title='api.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: api.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate pagination number of results", "GitHub Search"<br/>
+<a href="#Output-1517266286" onClick='toggleBox("Output-1517266286", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1517266286" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1517266286">
+<div "result">accept and content type are JSON (PASSED : 0s)</div><br/>
+<div "result">the user paginates results  count by 50 items per page (PASSED : 0s)</div><br/>
+<div "result">unauthenticated user searches repositories by a valid facebook (PASSED : 0s)</div><br/>
+<div "result">the user hits the endpoint (PASSED : 0s)</div><br/>
+<div "result">user should get 200 as a status code (FAILED : 0s)</div><br/>
+<div "result">user should only see repositories by this facebook as a result (SKIPPED)</div><br/>
+<div "result">one page should contain at most 50 items by default (SKIPPED)</div><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;403&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at implementedSteps.Test1.user_should_get_as_a_status_code(Test1.java:54)
+	at ✽.user should get 200 as a status code(./src/test/java/features/gitHubSearch.feature:70)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1517266286", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1517266286'><pre>java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;403&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at implementedSteps.Test1.user_should_get_as_a_status_code(Test1.java:54)
+	at ✽.user should get 200 as a status code(./src/test/java/features/gitHubSearch.feature:70)
+</pre></div></td>
+<td>0</td>
+<td>api.RunnerClass@52525845</td></tr>
+<tr>
+<td title='api.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: api.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate pagination default number of results", "GitHub Search"<br/>
+<a href="#Output-983834017" onClick='toggleBox("Output-983834017", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-983834017" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-983834017">
+<div "result">accept and content type are JSON (PASSED : 0s)</div><br/>
+<div "result">unauthenticated user searches repositories by a valid cucumber (PASSED : 0s)</div><br/>
+<div "result">the user hits the endpoint (PASSED : 0s)</div><br/>
+<div "result">user should get 200 as a status code (FAILED : 0s)</div><br/>
+<div "result">user should only see repositories by this cucumber as a result (SKIPPED)</div><br/>
+<div "result">one page should contain at most 30 items (UNDEFINED)</div><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;403&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at implementedSteps.Test1.user_should_get_as_a_status_code(Test1.java:54)
+	at ✽.user should get 200 as a status code(./src/test/java/features/gitHubSearch.feature:81)
+</pre></div><a href='#' onClick='toggleBox("stack-trace983834017", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace983834017'><pre>java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;403&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at implementedSteps.Test1.user_should_get_as_a_status_code(Test1.java:54)
+	at ✽.user should get 200 as a status code(./src/test/java/features/gitHubSearch.feature:81)
+</pre></div></td>
+<td>0</td>
+<td>api.RunnerClass@52525845</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='api.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: api.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the search by author name functionality", "GitHub Search"<br/>
+<a href="#Output-295640874" onClick='toggleBox("Output-295640874", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-295640874" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-295640874">
+<div "result">accept and content type are JSON (PASSED : 0s)</div><br/>
+<div "result">unauthenticated user searches repositories by a valid oracle (PASSED : 0s)</div><br/>
+<div "result">the user hits the endpoint (PASSED : 1s)</div><br/>
+<div "result">user should get 200 as a status code (PASSED : 0s)</div><br/>
+<div "result">user should only see repositories by this oracle as a result (PASSED : 1s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>api.RunnerClass@52525845</td></tr>
+<tr>
+<td title='api.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: api.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the search by author name functionality", "GitHub Search"<br/>
+<a href="#Output-1110148152" onClick='toggleBox("Output-1110148152", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1110148152" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1110148152">
+<div "result">accept and content type are JSON (PASSED : 0s)</div><br/>
+<div "result">unauthenticated user searches repositories by a valid cucumber (PASSED : 0s)</div><br/>
+<div "result">the user hits the endpoint (PASSED : 0s)</div><br/>
+<div "result">user should get 200 as a status code (PASSED : 0s)</div><br/>
+<div "result">user should only see repositories by this cucumber as a result (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
 <td>1</td>
-<td>api.RunnerClass@6e06451e</td></tr>
+<td>api.RunnerClass@52525845</td></tr>
+<tr>
+<td title='api.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: api.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the search by author name functionality", "GitHub Search"<br/>
+<a href="#Output-662045021" onClick='toggleBox("Output-662045021", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-662045021" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-662045021">
+<div "result">accept and content type are JSON (PASSED : 0s)</div><br/>
+<div "result">unauthenticated user searches repositories by a valid google (PASSED : 0s)</div><br/>
+<div "result">the user hits the endpoint (PASSED : 0s)</div><br/>
+<div "result">user should get 200 as a status code (PASSED : 0s)</div><br/>
+<div "result">user should only see repositories by this google as a result (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>api.RunnerClass@52525845</td></tr>
+<tr>
+<td title='api.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: api.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the search by author name and sort by stars range functionality", "GitHub Search"<br/>
+<a href="#Output-102709691" onClick='toggleBox("Output-102709691", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-102709691" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-102709691">
+<div "result">accept and content type are JSON (PASSED : 0s)</div><br/>
+<div "result">an unauthenticated user wants repositories with stars ranging from 15000 to 100000 (PASSED : 0s)</div><br/>
+<div "result">the user hits the endpoint (PASSED : 0s)</div><br/>
+<div "result">user should get 200 as a status code (PASSED : 0s)</div><br/>
+<div "result">repositories with stars in a range of 15000 to 100000 should be displayed (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>api.RunnerClass@52525845</td></tr>
+<tr>
+<td title='api.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: api.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the search by author name and sort by stars functionality", "GitHub Search"<br/>
+<a href="#Output-884111637" onClick='toggleBox("Output-884111637", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-884111637" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-884111637">
+<div "result">accept and content type are JSON (PASSED : 0s)</div><br/>
+<div "result">the user filters results by most stars (PASSED : 0s)</div><br/>
+<div "result">unauthenticated user searches repositories by a valid apache (PASSED : 0s)</div><br/>
+<div "result">the user hits the endpoint (PASSED : 0s)</div><br/>
+<div "result">user should get 200 as a status code (PASSED : 0s)</div><br/>
+<div "result">user should only see repositories by this apache as a result (PASSED : 0s)</div><br/>
+<div "result">repositories with most stars should come first (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>api.RunnerClass@52525845</td></tr>
 </table><p>
 </body>
 </html>
